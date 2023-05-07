@@ -18,3 +18,8 @@ variable "subnetvariable" {
   description = "VM instance hostname for ubuntu"
   
 }
+variable "vm-tags" {
+  type        = string
+
+  
+}
