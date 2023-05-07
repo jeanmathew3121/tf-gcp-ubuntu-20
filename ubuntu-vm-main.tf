@@ -4,7 +4,7 @@ resource "google_compute_instance" "vm_instance_public" {
   machine_type = var.ubuntu_instance_type
   zone         = var.gcp_zone
   hostname     = var.ubuntu_host_name
-  tags         = [var.vm-tags]
+  tags         = var.vm-tags
   boot_disk {
     initialize_params {
       image = var.ubuntu_pro_2004_sku
