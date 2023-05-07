@@ -19,7 +19,7 @@ variable "subnetvariable" {
   
 }
 variable "vm-tags" {
-//  type        = string
+  type        = list(string)
 
   
 }
