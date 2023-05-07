@@ -4,9 +4,6 @@ resource "google_compute_instance" "vm_instance_public" {
   machine_type = var.ubuntu_instance_type
   zone         = var.gcp_zone
   hostname     = var.ubuntu_host_name
-  tag1         = ""
-  tag2         = ""
-  tag3         = ""
   tags         = [var.tag1,var.tag2,var.tag3]
   boot_disk {
     initialize_params {
