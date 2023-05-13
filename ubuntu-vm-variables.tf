@@ -18,6 +18,11 @@ variable "subnetvariable" {
   description = "VM instance hostname for ubuntu"
   
 }
+variable "vpc-name" {
+  type        = string
+  description = "vpc name"
+  
+}
 variable "tag1" {
 }
 variable "tag2" {

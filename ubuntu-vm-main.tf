@@ -13,7 +13,7 @@ resource "google_compute_instance" "vm_instance_public" {
   
   
   network_interface {
-    network       = "tf-jm-vpc"
+    network       = var.vpc-name
     subnetwork    = var.subnetvariable //Assign the subnet in terraform. Options include dev, test, prod, security
     access_config { }
   }
