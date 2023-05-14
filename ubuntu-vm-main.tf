@@ -16,7 +16,7 @@ resource "google_compute_instance" "vm_instance_public" {
     network       = var.vpc-name
     subnetwork    = var.subnetvariable //Assign the subnet in terraform. Options include dev, test, prod, security
     access_config {
-    gateway_address = var.gateway-address
+      gateway_address = var.gateway-address
      }
     
   }
