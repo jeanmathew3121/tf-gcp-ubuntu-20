@@ -24,10 +24,10 @@ variable "vpc-name" {
   
 }
 
-variable "gateway-address" {
+/*variable "gateway-address" {
   description = "Gateway for host"
   
-}
+}*/
 variable "tag1" {
 }
 variable "tag2" {

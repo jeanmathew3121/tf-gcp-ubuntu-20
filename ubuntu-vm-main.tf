@@ -21,5 +21,5 @@ resource "google_compute_instance" "vm_instance_public" {
     
   }
 
-  ipv4_gateway = var.gateway-address
+  //ipv4_gateway = var.gateway-address
 }
